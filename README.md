@@ -21,3 +21,31 @@ The project will host a game of questions and answers, similar to [kahoot.com](k
 * Make PWA installable packages.
 * Hosted at firebase, so that PR can be previewed on a different channel before deploying to production.
 * Update project lifecycle with linting and automation.
+
+## Git Hooks
+
+Documented here for easy distribution.
+
+### commit-msg
+```yaml
+#!/usr/bin/env sh
+
+echo COMMIT-MSG GIT HOOK commitlint
+npx --no -- commitlint --edit ${1}
+```
+
+### pre-commit
+```yaml
+#!/usr/bin/env sh
+
+echo PRE-COMMIT GIT HOOK lint-staged
+npx lint-staged
+```
+
+### pre-push
+```yaml
+#!/usr/bin/env sh
+
+echo PRE-PUSH GIT HOOK test
+npm run test
+```
