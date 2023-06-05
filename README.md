@@ -1,34 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJS practice
 
-## Getting Started
+This repository is meant for practicing with the following technologies:
+* [React](https://react.dev/learn) & [NextJS](https://nextjs.org/).
+* [GraphQL](https://graphql.org/learn/) & [Apollo GraphQL](https://www.apollographql.com/docs/react/get-started/).
+* [Jest](https://jestjs.io/es-ES/).
+* [Cypress](https://www.cypress.io/).
+* [Storybook](https://storybook.js.org/).
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The project will host a game of questions and answers, similar to [kahoot.com](kahoot.com) but more simple (according to the limited time of the practice), including the following roughly defined features.
+* User OAuth identification (gmail).
+* Using GraphQL:
+  * Tests creation and sharing.
+  * Questions and answers database.
+* Responsive UI, using [chakra-ui](chakra-ui.com).
+* Presentation / Application / Domain / Infrastructure architecture.
+* Components documented with Storybook.
+* Unit tests with Jest and end2end with Cypress.
+* Make PWA installable packages.
+* Hosted at firebase, so that PR can be previewed on a different channel before deploying to production.
+* Update project lifecycle with linting and automation.
