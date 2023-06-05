@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "joshbolduc.commitlint",
+    "vivaxy.vscode-conventional-commits",
+    "vunguyentuan.vscode-css-variables",
+    "kisstkondoros.csstriggers",
+    "mikestead.dotenv",
+    "usernamehw.errorlens",
+    "dbaeumer.vscode-eslint",
+    "christian-kohler.path-intellisense",
+    "stylelint.vscode-stylelint",
+    "tzachovadia.todo-list",
+    "redhat.vscode-yaml",
+    "pwabuilder.pwa-studio",
+    "postman.postman-for-vscode",
+    "vscode-icons-team.vscode-icons"
+  ]
+}
