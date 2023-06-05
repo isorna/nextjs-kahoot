@@ -20,7 +20,7 @@ The project will host a game of questions and answers, similar to [kahoot.com](k
 * [ ] Unit tests with Jest and end2end with Cypress.
 * [ ] Make PWA installable packages.
 * [ ] Hosted at firebase (or vercel), so that PR can be previewed on a different channel before deploying to production.
-* [ ] Update project lifecycle with linting and automation.
+* [x] Update project lifecycle with linting and automation.
 
 ## Git Hooks
 
