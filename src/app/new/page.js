@@ -2,13 +2,13 @@
 import styles from './page.module.css'
 import { generatePageMetadata } from '@/services/generatePageMetadata'
 
-export const generateMetadata = generatePageMetadata('Home')
+export const generateMetadata = generatePageMetadata('New questionnaire')
 
 export default function Home() {
   return (
     <main>
       <header>
-        <h1>NextJS practice</h1>
+        <h1>New questionnaire</h1>
       </header>
     </main>
   )

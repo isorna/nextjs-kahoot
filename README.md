@@ -10,17 +10,17 @@ This repository is meant for practicing with the following technologies:
 ## Features
 
 The project will host a game of questions and answers, similar to [kahoot.com](kahoot.com) but more simple (according to the limited time of the practice), including the following roughly defined features.
-* User OAuth identification (gmail).
-* Using GraphQL:
+* [ ] User OAuth identification (gmail).
+* [ ] Using GraphQL:
   * Tests creation and sharing.
   * Questions and answers database.
-* Responsive UI, using [chakra-ui](chakra-ui.com).
-* Presentation / Application / Domain / Infrastructure architecture.
-* Components documented with Storybook.
-* Unit tests with Jest and end2end with Cypress.
-* Make PWA installable packages.
-* Hosted at firebase, so that PR can be previewed on a different channel before deploying to production.
-* Update project lifecycle with linting and automation.
+* [ ] Responsive UI, using [chakra-ui](chakra-ui.com).
+* [x] Presentation / Application / Domain / Infrastructure architecture.
+* [ ] Components documented with Storybook.
+* [ ] Unit tests with Jest and end2end with Cypress.
+* [ ] Make PWA installable packages.
+* [ ] Hosted at firebase (or vercel), so that PR can be previewed on a different channel before deploying to production.
+* [ ] Update project lifecycle with linting and automation.
 
 ## Git Hooks
 
