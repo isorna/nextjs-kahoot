@@ -1,6 +1,7 @@
 {
-  "name": "nextjs",
+  "name": "nextjs-kahoot",
   "version": "0.1.0",
+  "description": "This repository is meant for practicing with NextJS",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,11 +9,28 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isorna/nextjs-kahoot.git"
+  },
+  "author": "Alvaro Isorna (@isorna)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isorna/nextjs-kahoot/issues"
+  },
+  "homepage": "https://github.com/isorna/nextjs-kahoot#readme",
   "dependencies": {
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.4",
     "next": "13.4.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "lint-staged": "^13.2.2",
+    "stylelint": "^15.6.3",
+    "stylelint-config-standard": "^33.0.0"
   }
 }
