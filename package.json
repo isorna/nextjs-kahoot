@@ -30,7 +30,7 @@
     "@commitlint/cli": "^17.6.5",
     "@commitlint/config-conventional": "^17.6.5",
     "lint-staged": "^13.2.2",
-    "stylelint": "^15.6.3",
+    "stylelint": "^15.7.0",
     "stylelint-config-standard": "^33.0.0"
   }
 }
